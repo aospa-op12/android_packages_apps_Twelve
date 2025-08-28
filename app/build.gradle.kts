@@ -108,7 +108,6 @@ configure<GenerateBpPluginExtension> {
                 !module.group.startsWith("androidx.media3")
             }
             module.group.startsWith("org.jetbrains") -> true
-            module.group == "com.google.android.material" -> true
             module.group == "com.google.guava" -> true
             else -> false
         }
